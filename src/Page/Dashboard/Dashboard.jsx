@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
 import Cart from '../../Components/Cart/Cart'
+import Wishlist from '../../Components/Wishlist/Wishlist'
 
 const Dashboard = () => {
   return (
@@ -20,8 +21,11 @@ const Dashboard = () => {
                 </button>
             </div>
         </div>
-        <div>
+        <div className='hidden'>
             <Cart/>
+        </div>
+        <div>
+          <Wishlist/>
         </div>
       
     </div>
