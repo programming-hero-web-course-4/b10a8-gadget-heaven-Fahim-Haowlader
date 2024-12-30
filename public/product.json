@@ -1,0 +1,463 @@
+[
+    {
+        "product_id": "P001",
+        "product_title": "Apple iPhone 15 Pro Max",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNPmD3YNOZ_-bO-19Z7tEliZheuMJkoQJ12g&s",
+        "category": "Smartphones",
+        "price": 1099.99,
+        "description": "The latest iPhone with advanced features and stunning design.",
+        "Specification": [
+          "6.7-inch display",
+          "A17 Bionic chip",
+          "Pro camera system",
+          "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRaOv0p9dD1zk_EJGTIcgd-g-UvSsiC4Q07A&sg",
+        "category": "Smartphones",
+        "price": 1199.99,
+        "description": "Premium smartphone with a powerful camera and long battery life.",
+        "Specification": [
+          "6.8-inch display",
+          "Snapdragon 8 Gen 2",
+          "200MP camera",
+          "S Pen included"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P003",
+        "product_title": "Google Pixel 7 Pro",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaNPpMH7N7EKt-8lqtYiC8wrdTjwRnwlzZJA&s",
+        "category": "Smartphones",
+        "price": 899.99,
+        "description": "Smartphone with the best camera and Google Assistant integration.",
+        "Specification": [
+          "6.7-inch display",
+          "Google Tensor G2",
+          "50MP camera",
+          "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P004",
+        "product_title": "OnePlus 11",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe44qS3XsYY3DsNTObV_QjxYGRvI18DGfEcg&s",
+        "category": "Smartphones",
+        "price": 749.99,
+        "description": "Flagship smartphone with fast charging and smooth performance.",
+        "Specification": [
+          "6.7-inch display",
+          "Snapdragon 8 Gen 2",
+          "50MP camera",
+          "Fast charging"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P005",
+        "product_title": "Apple MacBook Pro 16",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe3GQHpbvJI5_ZRmpdxZkGqrXSRhept_2zRg&s",
+        "category": "Laptops",
+        "price": 2499.99,
+        "description": "Powerful laptop for professionals with M2 Pro chip.",
+        "Specification": [
+          "16-inch Retina display",
+          "M2 Pro chip",
+          "16GB RAM",
+          "1TB SSD"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "P006",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-in-BD-5.jpg",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "Compact and powerful laptop with stunning display.",
+        "Specification": [
+          "13.4-inch display",
+          "Intel Core i7",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P007",
+        "product_title": "HP Spectre x360",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/HP-Spectre-x360-15-Price-in-BD.jpg",
+        "category": "Laptops",
+        "price": 1399.99,
+        "description": "Versatile 2-in-1 laptop with premium design.",
+        "Specification": [
+          "13.3-inch display",
+          "Intel Core i7",
+          "16GB RAM",
+          "1TB SSD"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P008",
+        "product_title": "Apple iPad Pro 12.9",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi9zYTTGh7rhoTkQ7LkWIOjugCDWe4pVLu-Q&s",
+        "category": "Tablets",
+        "price": 1099.99,
+        "description": "Powerful tablet with a stunning display and Apple Pencil support.",
+        "Specification": [
+          "12.9-inch Liquid Retina display",
+          "M2 chip",
+          "128GB storage",
+          "Wi-Fi and Cellular options"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P009",
+        "product_title": "Samsung Galaxy Tab S8 Ultra",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAlbUNc0qbXQbkKiPeJIw3e6kbo8Z8d6dtLg&s",
+        "category": "Tablets",
+        "price": 1099.99,
+        "description": "Premium Android tablet with a large display and S Pen.",
+        "Specification": [
+          "14.6-inch Super AMOLED display",
+          "Snapdragon 8 Gen 1",
+          "128GB storage",
+          "S Pen included"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P010",
+        "product_title": "Microsoft Surface Pro 9",
+        "product_image": "https://www.custommacbd.com/cdn/shop/products/Surface-pro-9-Custom-Mac-BD_00392a1c-a2cb-44e5-b67e-f157dbdfb674.jpg?v=1677739706",
+        "category": "Tablets",
+        "price": 999.99,
+        "description": "Versatile 2-in-1 tablet with laptop performance.",
+        "Specification": [
+          "13-inch PixelSense display",
+          "Intel Core i7",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P011",
+        "product_title": "Sony WH-1000XM5",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp-BO6sNnIaMbKO135XeAsIx1HZxB62V6ow&s",
+        "category": "Audio",
+        "price": 349.99,
+        "description": "Industry-leading noise-canceling headphones.",
+        "Specification": [
+          "30 hours battery life",
+          "Touch sensor controls",
+          "Voice assistant compatibility"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P012",
+        "product_title": "Bose QuietComfort 45",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4RIMqxVUrWUo4GYQXtbtRB7oZfzb9sBSnqw&s",
+        "category": "Audio",
+        "price": 329.99,
+        "description": "Comfortable headphones with excellent noise cancellation.",
+        "Specification": [
+          "24 hours battery life",
+          "Bluetooth and wired options",
+          "Voice assistant compatibility"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P013",
+        "product_title": "Apple AirPods Pro",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYDtYyEFYlW82G1reaICRHDFIeuLB_IoIR_Q&s",
+        "category": "Audio",
+        "price": 249.99,
+        "description": "In-ear headphones with active noise cancellation.",
+        "Specification": [
+          "Spatial audio",
+          "MagSafe charging case",
+          "Adaptive EQ"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P014",
+        "product_title": "Fitbit Charge 5",
+        "product_image": "https://hips.hearstapps.com/hmg-prod/images/fitbit-charge-5-still-deep-sea-sport-1632171071.jpeg",
+        "category": "Wearables",
+        "price": 179.99,
+        "description": "Advanced fitness tracker with built-in GPS.",
+        "Specification": [
+          "Heart rate monitoring",
+          "Sleep tracking",
+          "Stress management tools"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": "P015",
+        "product_title": "Garmin Forerunner 245",
+        "product_image": "https://m.media-amazon.com/images/I/51-PWE7CmvL._AC_UF894,1000_QL80_.jpg",
+        "category": "Wearables",
+        "price": 349.99,
+        "description": "GPS running watch with advanced training features.",
+        "Specification": [
+          "Music storage",
+          "VO2 max estimate",
+          "Smart notifications"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P016",
+        "product_title": "Oculus Quest 2",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyP6s5iHKsn9UZNa6heATu48VTyzZ4c00wTw&s",
+        "category": "Gaming",
+        "price": 299.99,
+        "description": "All-in-one VR headset with a vast library of games.",
+        "Specification": [
+          "128GB storage",
+          "Wireless and standalone",
+          "High-resolution display"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P017",
+        "product_title": "PlayStation 5",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdmJDDw1e2JdT86Kbr4VYcQhjSCq5wMjpXw&s",
+        "category": "Gaming",
+        "price": 499.99,
+        "description": "Next-gen gaming console with stunning graphics.",
+        "Specification": [
+          "4K gaming",
+          "Ultra HD Blu-ray",
+          "Fast SSD"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "P018",
+        "product_title": "Xbox Series X",
+        "product_image": "https://media.wired.com/photos/5fa5dc3dba670daaf8e97a8d/master/pass/games_gear_series-x.jpg",
+        "category": "Gaming",
+        "price": 499.99,
+        "description": "Powerful gaming console with a vast game library.",
+        "Specification": [
+          "4K gaming",
+          "Smart Delivery",
+          "Fast load times"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P019",
+        "product_title": "Nintendo Switch",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1KEy1ikwFLLufJwwMz1o0pCN2DH1o0BAPw&s",
+        "category": "Gaming",
+        "price": 299.99,
+        "description": "Versatile gaming console for home and on-the-go.",
+        "Specification": [
+          "Handheld and docked modes",
+          "Joy-Con controllers",
+          "Exclusive game titles"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P020",
+        "product_title": "Razer Blade 15",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHcHVpvtQtWsHHIeMNxwxeYp_yd5kN_as7w&s",
+        "category": "Laptops",
+        "price": 1999.99,
+        "description": "High-performance gaming laptop with sleek design.",
+        "Specification": [
+          "15.6-inch display",
+          "NVIDIA GeForce RTX 3070",
+          "16GB RAM",
+          "1TB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P021",
+        "product_title": "Logitech G502 HERO",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIwyRq2yEwQYTmv-ltejsfjl1C98j8MFev9g&s",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "High-performance gaming mouse with customizable buttons.",
+        "Specification": [
+          "16,000 DPI",
+          "RGB lighting",
+          "Adjustable weights"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P022",
+        "product_title": "Corsair K95 RGB Keyboard",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nzG4RPEBCmVdY608F9s8EQm_OdQe35SjDw&s",
+        "category": "Accessories",
+        "price": 199.99,
+        "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+        "Specification": [
+          "Cherry MX switches",
+          "Macro keys",
+          "Aluminum frame"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P023",
+        "product_title": "Samsung 970 EVO Plus SSD",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl3fMoSKy8sCTX0xcTn_kbHBNX_qSN9b_2wQ&s",
+        "category": "Storage",
+        "price": 129.99,
+        "description": "High-speed NVMe SSD for faster load times.",
+        "Specification": [
+          "1TB capacity",
+          "Read speeds up to 3,500 MB/s",
+          "M.2 2280 form factor"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "P024",
+        "product_title": "Seagate Expansion Portable HDD",
+        "product_image": "https://i0.wp.com/riazcomputer.com/wp-content/uploads/2019/07/SEAGATE-EXPANSION.jpg?fit=860%2C856&ssl=1",
+        "category": "Storage",
+        "price": 69.99,
+        "description": "Portable external hard drive for easy file storage.",
+        "Specification": [
+          "2TB capacity",
+          "USB 3.0 interface",
+          "Plug and play"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P025",
+        "product_title": "Canon EOS R5",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjGpdOM-lh8LSU_1e-V24Z4DgxQCeSsInp3w&s",
+        "category": "Cameras",
+        "price": 3899.99,
+        "description": "Full-frame mirrorless camera with 45MP sensor.",
+        "Specification": [
+          "8K video recording",
+          "Dual Pixel autofocus",
+          "In-body image stabilization"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "P026",
+        "product_title": "Nikon Z6 II",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatJ4lGI4DL7x9qB2tjmdoArsXKp-uz7hI1g&s",
+        "category": "Cameras",
+        "price": 1999.99,
+        "description": "Versatile full-frame mirrorless camera for photography and video.",
+        "Specification": [
+          "24.5MP sensor",
+          "4K video recording",
+          "Dual card slots"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P027",
+        "product_title": "Sony A7 III",
+        "product_image": "https://m.media-amazon.com/images/I/91rQ3XfEYzL._AC_SL1500_.jpg",
+        "category": "Cameras",
+        "price": 1999.99,
+        "description": "Full-frame mirrorless camera with excellent low-light performance.",
+        "Specification": [
+          "24.2MP sensor",
+          "4K video recording",
+          "Fast autofocus"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P028",
+        "product_title": "GoPro HERO10 Black",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhgfFPNYfTqcVPDodEc1rNB1UYIcY0kiPxYA&s",
+        "category": "Cameras",
+        "price": 399.99,
+        "description": "Action camera with 5.3K video and HyperSmooth stabilization.",
+        "Specification": [
+          "Waterproof",
+          "Voice control",
+          "Live streaming"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P029",
+        "product_title": "DJI Mini 2",
+        "product_image": "https://www-cdn.djiits.com/cms/uploads/ec40a1889b60070e20cf42b8b300734c@770*462.jpg",
+        "category": "Drones",
+        "price": 449.99,
+        "description": "Compact drone with 4K video and 31 minutes of flight time.",
+        "Specification": [
+          "249g weight",
+          "OcuSync 2.0",
+          "12MP photos"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P030",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2022/09/Apple-Watch-Series-8-Featured-Image.png",
+        "category": "Wearables",
+        "price": 399.99,
+        "description": "Smartwatch with health tracking and fitness features.",
+        "Specification": [
+          "Always-on display",
+          "Heart rate monitoring",
+          "GPS and cellular options"
+        ],
+        "availability": true,
+        "rating": 4.8
+      }
+]
