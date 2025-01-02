@@ -4,16 +4,15 @@ import { useProductContext } from '../../context/AppContext'
 
 const Cart = () => {
   const {cart,setcart} = useProductContext()
-   const [balance, setbalance] = useState([])
+  //  const [balance, setbalance] = useState([])
    const [total, settotal] = useState(0)
  useEffect(()=>{
-  const newBalance = cart.map((item)=> item?.price)
-  setbalance(newBalance)
+  const balance = cart.map((item)=> item?.price)
   const total1 = balance.reduce((current,newone)=>{
     return current + newone
   },0)
   settotal(total1)
- },[cart])
+ })
       
 
     

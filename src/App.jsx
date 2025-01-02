@@ -4,6 +4,7 @@ import Dashboard from './Page/Dashboard/Dashboard'
 import PrroductPage from './Page/ProductPage/PrroductPage'
 import { createBrowserRouter, createRoutesFromElements,Navigate,Route, RouterProvider } from 'react-router-dom'
 import RootLayout from './Layout/RootLayout'
+import OfferPage from './Page/OfferPage/OfferPage'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       </Route>
       <Route path="home" element={<Homepage/>} />
       <Route path="dashboard" element={<Dashboard/>} />
+      <Route path="offers" element={<OfferPage/>} />
       </Route>
     )
   )

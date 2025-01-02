@@ -6,8 +6,6 @@ import { useProductContext } from '../../context/AppContext';
 const Cartitem = ({item}) => {
   const {cart,setcart} = useProductContext();
   const handleDelet = (id) =>{
-    console.log(id)
-
     const newcart = cart.filter((item) => item.product_id !== id);
     setcart(newcart);
   }

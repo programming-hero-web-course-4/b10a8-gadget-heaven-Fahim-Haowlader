@@ -6,7 +6,7 @@ import { useProductContext } from '../../context/AppContext';
 
 const PrroductPage = () => {
     const {id} = useParams();
-    const {product,cart,setcart} = useProductContext()
+    const {product,cart,setcart,wishlist,setwishlist} = useProductContext()
    const details = product?.find(element => element?.product_id === id)
    const handleAddToCart =(product)=>{
 
@@ -14,6 +14,17 @@ const PrroductPage = () => {
         console.log(product)
         console.log(cart)
       } 
+
+      const handleWishlist = (product) =>{
+        const cheek = wishlist.find((item) => item.product_id === product.product_id)
+                if (cheek){
+            console.log('have it in wish list')
+        }
+        else{
+            setwishlist([...wishlist,product])
+            console.log("add")
+        }
+      }
   
    
   return (
@@ -25,12 +36,12 @@ const PrroductPage = () => {
                 <p className='text-center'>the coolest accessories, we have it all!</p>
             </div>
             <div className='p-5 rounded-xl flex gap-5 w-[1150px] bg-white absolute top-[300px] right-[150px] border border-[rgb(149,56,226)]'>
-                <div> <img src={details?.product_image} alt="" className='h-[520px] w-[430px] object-cover rounded-xl' /></div>
+                <div> <img src={details?.product_image} alt="" className='h-[520px] w-[460px] object-cover rounded-xl' /></div>
                 <div className='space-y-4'>
                     <h2 className='text-3xl font-bold'> {details?.product_title}</h2>
                     <h3 className='text-2xl font-semibold '>Price: ${details?.price} </h3>
                     <p className='bg-[rgba(48,156,8,.1)] border border-[rgb(48,156,8,.1)] text-center rounded-3xl p-2 w-32 '>{details?.availability ? "In Stock" : "Out OF Stock"}</p>
-                    <pre className='w-[600px] text-wrap '>{details?.description} </pre>
+                    <pre className='w-[700px] text-wrap '>{details?.description} </pre>
                     <h4 className='text-xl font-semibold'>Specification:</h4>
                     {
                         details?.Specification?.map((element, index) => (
@@ -48,7 +59,7 @@ const PrroductPage = () => {
                         <div  onClick={()=>handleAddToCart(details)} className=''>
                         <button className='flex gap-3 bg-[rgb(149,56,226)] py-3 px-5 font-semibold rounded-3xl items-center'> add to Card <div className='text-2xl'><FiShoppingCart/></div> </button>
                             </div>
-                        <button className=' flex justify-center items-center text-black text-3xl w-12 h-12 rounded-[50%] border border-black'><IoMdHeartEmpty/></button>
+                        <button onClick={()=> handleWishlist(details)} className=' flex justify-center items-center text-black text-3xl w-12 h-12 rounded-[50%] border border-black'><IoMdHeartEmpty/></button>
                      </div>
                 </div>
             </div>
