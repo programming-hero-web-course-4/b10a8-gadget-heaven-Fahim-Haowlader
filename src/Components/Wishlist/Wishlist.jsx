@@ -1,4 +1,7 @@
 import React from 'react'
+import ReactStars from "react-rating-stars-component";
+import { render } from "react-dom";
+
 import Cartitem from '../Cartitem/Cartitem'
 
 const Wishlist = () => {
@@ -9,6 +12,7 @@ const Wishlist = () => {
         <Cartitem/>
         <Cartitem/>
         <Cartitem/>
+        
      </div> 
     
 </div>

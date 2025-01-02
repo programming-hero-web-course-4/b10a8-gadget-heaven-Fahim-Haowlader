@@ -1,14 +1,17 @@
 import React from 'react'
 import { IoMdHeartEmpty } from "react-icons/io";
 import { FiShoppingCart } from "react-icons/fi";
+import { useLocation,Link } from 'react-router-dom';
 const Header = () => {
+  const location = useLocation();
+  console.log(location.pathname)
   return (
     <div className='flex text-white items-center justify-between bg-[rgb(149,56,226)] rounded-t-3xl py-7 px-28'>
       <div className='text-2xl font-bold'>Gadget Heaven</div>
       <div className='flex gap-7 text-xl font-semibold items-center justify-center'>
-        <p>Home</p>
+        <Link to="home">Home</Link>
         <p>Statistics</p>
-        <p>Dsshboard</p>
+        <Link to="/dashboard">Dsshboard</Link>
         <p>Dsshboard2</p>
       </div>
       <div className='flex gap-6 text-black '>

@@ -6,10 +6,14 @@ import { useProductContext } from '../../context/AppContext';
 
 const PrroductPage = () => {
     const {id} = useParams();
-    const {product} = useProductContext()
+    const {product,cart,setcart} = useProductContext()
    const details = product?.find(element => element?.product_id === id)
-   console.log(details)
- 
+   const handleAddToCart =(product)=>{
+
+        setcart([...cart,product])
+        console.log(product)
+        console.log(cart)
+      } 
   
    
   return (
@@ -25,8 +29,8 @@ const PrroductPage = () => {
                 <div className='space-y-4'>
                     <h2 className='text-3xl font-bold'> {details?.product_title}</h2>
                     <h3 className='text-2xl font-semibold '>Price: ${details?.price} </h3>
-                    <p className='bg-[rgba(48,156,8,.1)] border border-[rgb(48,156,8,.1)] text-center rounded-3xl p-2 w-32 '>{details.availability ? "In Stock" : "Out OF Stock"}</p>
-                    <pre>{details?.description} </pre>
+                    <p className='bg-[rgba(48,156,8,.1)] border border-[rgb(48,156,8,.1)] text-center rounded-3xl p-2 w-32 '>{details?.availability ? "In Stock" : "Out OF Stock"}</p>
+                    <pre className='w-[600px] text-wrap '>{details?.description} </pre>
                     <h4 className='text-xl font-semibold'>Specification:</h4>
                     {
                         details?.Specification?.map((element, index) => (
@@ -39,9 +43,9 @@ const PrroductPage = () => {
                      {/* <p>2.16GB RAM </p>
                      <p>3.512GB SSD   </p>
                      <p>4.Touchscreen</p> */}
-                     <h5 className='font-semibold'>Rating : {details.rating}</h5>
+                     <h5 className='font-semibold'>Rating : {details?.rating}</h5>
                      <div className='flex gap-5 text-white'>
-                        <div className=''>
+                        <div  onClick={()=>handleAddToCart(details)} className=''>
                         <button className='flex gap-3 bg-[rgb(149,56,226)] py-3 px-5 font-semibold rounded-3xl items-center'> add to Card <div className='text-2xl'><FiShoppingCart/></div> </button>
                             </div>
                         <button className=' flex justify-center items-center text-black text-3xl w-12 h-12 rounded-[50%] border border-black'><IoMdHeartEmpty/></button>
