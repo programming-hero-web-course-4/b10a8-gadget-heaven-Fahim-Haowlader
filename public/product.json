@@ -459,5 +459,69 @@
         ],
         "availability": true,
         "rating": 4.8
-      }
+      },
+      {
+        "product_id": "P031",
+        "product_title": "Oppo Find X6 Pro",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTb4-e9udQe03HCMDA_vK8EC3KO-WDkaaiQ&s",
+        "category": "Smartphones",
+        "price": 1099.99,
+        "description": "The Oppo Find X6 Pro features a stunning design and powerful performance, perfect for photography enthusiasts.",
+        "Specification": [
+            "6.82-inch AMOLED display",
+            "Snapdragon 8 Gen 2 processor",
+            "Triple camera system with 50MP main sensor",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+      "product_id": "P032",
+      "product_title": "Vivo X90 Pro",
+      "product_image": "https://mobilemall.pk/public_html/images/product/product_1669310282vivo-x90-pro.jpg",
+      "category": "Smartphones",
+      "price": 999.99,
+      "description": "The Vivo X90 Pro offers a premium experience with its high-resolution display and advanced camera features.",
+      "Specification": [
+          "6.78-inch AMOLED display",
+          "MediaTek Dimensity 9200 processor",
+          "Triple camera system with 50MP main sensor",
+          "5G capable"
+      ],
+      "availability": true,
+      "rating": 4.5
+  },
+  {
+    "product_id": "P033",
+    "product_title": "Realme GT 3",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkuc7aEFrM8FoqPqfH0udMyMxCV9X2MClBXA&s",
+    "category": "Smartphones",
+    "price": 749.99,
+    "description": "The Realme GT 3 is designed for gamers, featuring a high refresh rate display and powerful performance.",
+    "Specification": [
+        "6.74-inch AMOLED display",
+        "Snapdragon 8 Gen 2 processor",
+        "Triple camera system",
+        "5G capable"
+    ],
+    "availability": true,
+    "rating": 4.4
+},
+{
+  "product_id": "P034",
+  "product_title": "Asus ROG Phone 7",
+  "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOnN6x0q9hyQjzGEjtll4i9IuzwlUlmLiCgA&s",
+  "category": "Smartphones",
+  "price": 999.99,
+  "description": "The Asus ROG Phone 7 is built for gamers, featuring a high refresh rate display and advanced cooling technology.",
+  "Specification": [
+      "6.78-inch AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "Triple camera system",
+      "5G capable"
+  ],
+  "availability": true,
+  "rating": 4.7
+}
 ]
