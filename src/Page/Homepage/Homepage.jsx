@@ -6,7 +6,7 @@ const Homeage = () => {
   return (
   <div>
     <Helmet>
-          <title>Gatget Heaven - Home</title>
+          <title>Gadget Heaven - Home</title>
         </Helmet>
     <div className=" pb-32">
     

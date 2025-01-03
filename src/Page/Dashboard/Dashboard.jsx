@@ -9,7 +9,7 @@ const Dashboard = () => {
   return (
     <div>
        <Helmet>
-          <title>Gatget Heaven - DashBoard</title>
+          <title>Gadget Heaven - DashBoard</title>
         </Helmet>
         <div className='bg-[rgb(149,56,226)] text-white'>
         <h1 className='text-center py-6 text-4xl font-bold'>Dashboard</h1>

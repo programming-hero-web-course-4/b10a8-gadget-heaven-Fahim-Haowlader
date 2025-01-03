@@ -6,12 +6,15 @@ import { createBrowserRouter, createRoutesFromElements,Navigate,Route, RouterPro
 import RootLayout from './Layout/RootLayout'
 import OfferPage from './Page/OfferPage/OfferPage'
 import StatisticsPage from './Page/Statistics/StatisticsPage'
+import Error from './Page/Error/Error'
 
 function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element= {<RootLayout />} >
+      <Route path="/"  >
+
+      <Route path="" element= {<RootLayout />} >
       <Route path="" element={<Navigate to="/home"/>} />
       <Route path="home" element={<Homepage/>} />
       <Route path="details" >
@@ -22,6 +25,9 @@ function App() {
       <Route path="dashboard" element={<Dashboard/>} />
       <Route path="offers" element={<OfferPage/>} />
       <Route path="statistics" element={<StatisticsPage/>} />
+      </Route>
+      <Route path="/*" element={<Error/>} />
+
       </Route>
     )
   )

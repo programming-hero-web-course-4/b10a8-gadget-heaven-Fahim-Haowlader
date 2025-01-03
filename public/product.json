@@ -4,7 +4,7 @@
         "product_title": "Apple iPhone 15 Pro Max",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNPmD3YNOZ_-bO-19Z7tEliZheuMJkoQJ12g&s",
         "category": "Smartphones",
-        "price": 1099.99,
+        "price": 1099,
         "description": "The latest iPhone with advanced features and stunning design.",
         "Specification": [
           "6.7-inch display",
@@ -20,7 +20,7 @@
         "product_title": "Samsung Galaxy S23 Ultra",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRaOv0p9dD1zk_EJGTIcgd-g-UvSsiC4Q07A&sg",
         "category": "Smartphones",
-        "price": 1199.99,
+        "price": 1199,
         "description": "Premium smartphone with a powerful camera and long battery life.",
         "Specification": [
           "6.8-inch display",
@@ -36,7 +36,7 @@
         "product_title": "Google Pixel 7 Pro",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaNPpMH7N7EKt-8lqtYiC8wrdTjwRnwlzZJA&s",
         "category": "Smartphones",
-        "price": 899.99,
+        "price": 899,
         "description": "Smartphone with the best camera and Google Assistant integration.",
         "Specification": [
           "6.7-inch display",
@@ -52,7 +52,7 @@
         "product_title": "OnePlus 11",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe44qS3XsYY3DsNTObV_QjxYGRvI18DGfEcg&s",
         "category": "Smartphones",
-        "price": 749.99,
+        "price": 749,
         "description": "Flagship smartphone with fast charging and smooth performance.",
         "Specification": [
           "6.7-inch display",
@@ -68,7 +68,7 @@
         "product_title": "Apple MacBook Pro 16",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe3GQHpbvJI5_ZRmpdxZkGqrXSRhept_2zRg&s",
         "category": "Laptops",
-        "price": 2499.99,
+        "price": 2499,
         "description": "Powerful laptop for professionals with M2 Pro chip.",
         "Specification": [
           "16-inch Retina display",
@@ -84,7 +84,7 @@
         "product_title": "Dell XPS 13",
         "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-in-BD-5.jpg",
         "category": "Laptops",
-        "price": 999.99,
+        "price": 999,
         "description": "Compact and powerful laptop with stunning display.",
         "Specification": [
           "13.4-inch display",
@@ -100,7 +100,7 @@
         "product_title": "HP Spectre x360",
         "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/HP-Spectre-x360-15-Price-in-BD.jpg",
         "category": "Laptops",
-        "price": 1399.99,
+        "price": 1399,
         "description": "Versatile 2-in-1 laptop with premium design.",
         "Specification": [
           "13.3-inch display",
@@ -116,7 +116,7 @@
         "product_title": "Apple iPad Pro 12.9",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi9zYTTGh7rhoTkQ7LkWIOjugCDWe4pVLu-Q&s",
         "category": "Tablets",
-        "price": 1099.99,
+        "price": 1099,
         "description": "Powerful tablet with a stunning display and Apple Pencil support.",
         "Specification": [
           "12.9-inch Liquid Retina display",
@@ -132,7 +132,7 @@
         "product_title": "Samsung Galaxy Tab S8 Ultra",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAlbUNc0qbXQbkKiPeJIw3e6kbo8Z8d6dtLg&s",
         "category": "Tablets",
-        "price": 1099.99,
+        "price": 1099,
         "description": "Premium Android tablet with a large display and S Pen.",
         "Specification": [
           "14.6-inch Super AMOLED display",
@@ -148,7 +148,7 @@
         "product_title": "Microsoft Surface Pro 9",
         "product_image": "https://www.custommacbd.com/cdn/shop/products/Surface-pro-9-Custom-Mac-BD_00392a1c-a2cb-44e5-b67e-f157dbdfb674.jpg?v=1677739706",
         "category": "Tablets",
-        "price": 999.99,
+        "price": 999,
         "description": "Versatile 2-in-1 tablet with laptop performance.",
         "Specification": [
           "13-inch PixelSense display",
@@ -164,7 +164,7 @@
         "product_title": "Sony WH-1000XM5",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp-BO6sNnIaMbKO135XeAsIx1HZxB62V6ow&s",
         "category": "Audio",
-        "price": 349.99,
+        "price": 349,
         "description": "Industry-leading noise-canceling headphones.",
         "Specification": [
           "30 hours battery life",
@@ -179,7 +179,7 @@
         "product_title": "Bose QuietComfort 45",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4RIMqxVUrWUo4GYQXtbtRB7oZfzb9sBSnqw&s",
         "category": "Audio",
-        "price": 329.99,
+        "price": 329,
         "description": "Comfortable headphones with excellent noise cancellation.",
         "Specification": [
           "24 hours battery life",
@@ -194,7 +194,7 @@
         "product_title": "Apple AirPods Pro",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYDtYyEFYlW82G1reaICRHDFIeuLB_IoIR_Q&s",
         "category": "Audio",
-        "price": 249.99,
+        "price": 249,
         "description": "In-ear headphones with active noise cancellation.",
         "Specification": [
           "Spatial audio",
@@ -209,7 +209,7 @@
         "product_title": "Fitbit Charge 5",
         "product_image": "https://hips.hearstapps.com/hmg-prod/images/fitbit-charge-5-still-deep-sea-sport-1632171071.jpeg",
         "category": "Wearables",
-        "price": 179.99,
+        "price": 179,
         "description": "Advanced fitness tracker with built-in GPS.",
         "Specification": [
           "Heart rate monitoring",
@@ -224,7 +224,7 @@
         "product_title": "Garmin Forerunner 245",
         "product_image": "https://m.media-amazon.com/images/I/51-PWE7CmvL._AC_UF894,1000_QL80_.jpg",
         "category": "Wearables",
-        "price": 349.99,
+        "price": 349,
         "description": "GPS running watch with advanced training features.",
         "Specification": [
           "Music storage",
@@ -239,7 +239,7 @@
         "product_title": "Oculus Quest 2",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyP6s5iHKsn9UZNa6heATu48VTyzZ4c00wTw&s",
         "category": "Gaming",
-        "price": 299.99,
+        "price": 299,
         "description": "All-in-one VR headset with a vast library of games.",
         "Specification": [
           "128GB storage",
@@ -254,7 +254,7 @@
         "product_title": "PlayStation 5",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdmJDDw1e2JdT86Kbr4VYcQhjSCq5wMjpXw&s",
         "category": "Gaming",
-        "price": 499.99,
+        "price": 499,
         "description": "Next-gen gaming console with stunning graphics.",
         "Specification": [
           "4K gaming",
@@ -269,7 +269,7 @@
         "product_title": "Xbox Series X",
         "product_image": "https://media.wired.com/photos/5fa5dc3dba670daaf8e97a8d/master/pass/games_gear_series-x.jpg",
         "category": "Gaming",
-        "price": 499.99,
+        "price": 499,
         "description": "Powerful gaming console with a vast game library.",
         "Specification": [
           "4K gaming",
@@ -284,7 +284,7 @@
         "product_title": "Nintendo Switch",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1KEy1ikwFLLufJwwMz1o0pCN2DH1o0BAPw&s",
         "category": "Gaming",
-        "price": 299.99,
+        "price": 299,
         "description": "Versatile gaming console for home and on-the-go.",
         "Specification": [
           "Handheld and docked modes",
@@ -299,7 +299,7 @@
         "product_title": "Razer Blade 15",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTHcHVpvtQtWsHHIeMNxwxeYp_yd5kN_as7w&s",
         "category": "Laptops",
-        "price": 1999.99,
+        "price": 1999,
         "description": "High-performance gaming laptop with sleek design.",
         "Specification": [
           "15.6-inch display",
@@ -315,7 +315,7 @@
         "product_title": "Logitech G502 HERO",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIwyRq2yEwQYTmv-ltejsfjl1C98j8MFev9g&s",
         "category": "Accessories",
-        "price": 49.99,
+        "price": 59,
         "description": "High-performance gaming mouse with customizable buttons.",
         "Specification": [
           "16,000 DPI",
@@ -330,7 +330,7 @@
         "product_title": "Corsair K95 RGB Keyboard",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nzG4RPEBCmVdY608F9s8EQm_OdQe35SjDw&s",
         "category": "Accessories",
-        "price": 199.99,
+        "price": 199,
         "description": "Mechanical gaming keyboard with customizable RGB lighting.",
         "Specification": [
           "Cherry MX switches",
@@ -345,7 +345,7 @@
         "product_title": "Samsung 970 EVO Plus SSD",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl3fMoSKy8sCTX0xcTn_kbHBNX_qSN9b_2wQ&s",
         "category": "Storage",
-        "price": 129.99,
+        "price": 129,
         "description": "High-speed NVMe SSD for faster load times.",
         "Specification": [
           "1TB capacity",
@@ -360,7 +360,7 @@
         "product_title": "Seagate Expansion Portable HDD",
         "product_image": "https://i0.wp.com/riazcomputer.com/wp-content/uploads/2019/07/SEAGATE-EXPANSION.jpg?fit=860%2C856&ssl=1",
         "category": "Storage",
-        "price": 69.99,
+        "price": 69,
         "description": "Portable external hard drive for easy file storage.",
         "Specification": [
           "2TB capacity",
@@ -375,7 +375,7 @@
         "product_title": "Canon EOS R5",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjGpdOM-lh8LSU_1e-V24Z4DgxQCeSsInp3w&s",
         "category": "Cameras",
-        "price": 3899.99,
+        "price": 3899,
         "description": "Full-frame mirrorless camera with 45MP sensor.",
         "Specification": [
           "8K video recording",
@@ -390,7 +390,7 @@
         "product_title": "Nikon Z6 II",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatJ4lGI4DL7x9qB2tjmdoArsXKp-uz7hI1g&s",
         "category": "Cameras",
-        "price": 1999.99,
+        "price": 1999,
         "description": "Versatile full-frame mirrorless camera for photography and video.",
         "Specification": [
           "24.5MP sensor",
@@ -405,7 +405,7 @@
         "product_title": "Sony A7 III",
         "product_image": "https://m.media-amazon.com/images/I/91rQ3XfEYzL._AC_SL1500_.jpg",
         "category": "Cameras",
-        "price": 1999.99,
+        "price": 1999,
         "description": "Full-frame mirrorless camera with excellent low-light performance.",
         "Specification": [
           "24.2MP sensor",
@@ -420,7 +420,7 @@
         "product_title": "GoPro HERO10 Black",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhgfFPNYfTqcVPDodEc1rNB1UYIcY0kiPxYA&s",
         "category": "Cameras",
-        "price": 399.99,
+        "price": 399,
         "description": "Action camera with 5.3K video and HyperSmooth stabilization.",
         "Specification": [
           "Waterproof",
@@ -435,7 +435,7 @@
         "product_title": "DJI Mini 2",
         "product_image": "https://www-cdn.djiits.com/cms/uploads/ec40a1889b60070e20cf42b8b300734c@770*462.jpg",
         "category": "Drones",
-        "price": 449.99,
+        "price": 449,
         "description": "Compact drone with 4K video and 31 minutes of flight time.",
         "Specification": [
           "249g weight",
@@ -450,7 +450,7 @@
         "product_title": "Apple Watch Series 8",
         "product_image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2022/09/Apple-Watch-Series-8-Featured-Image.png",
         "category": "Wearables",
-        "price": 399.99,
+        "price": 399,
         "description": "Smartwatch with health tracking and fitness features.",
         "Specification": [
           "Always-on display",
@@ -465,7 +465,7 @@
         "product_title": "Oppo Find X6 Pro",
         "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTb4-e9udQe03HCMDA_vK8EC3KO-WDkaaiQ&s",
         "category": "Smartphones",
-        "price": 1099.99,
+        "price": 1099,
         "description": "The Oppo Find X6 Pro features a stunning design and powerful performance, perfect for photography enthusiasts.",
         "Specification": [
             "6.82-inch AMOLED display",
@@ -481,7 +481,7 @@
       "product_title": "Vivo X90 Pro",
       "product_image": "https://mobilemall.pk/public_html/images/product/product_1669310282vivo-x90-pro.jpg",
       "category": "Smartphones",
-      "price": 999.99,
+      "price": 999,
       "description": "The Vivo X90 Pro offers a premium experience with its high-resolution display and advanced camera features.",
       "Specification": [
           "6.78-inch AMOLED display",
@@ -497,7 +497,7 @@
     "product_title": "Realme GT 3",
     "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkuc7aEFrM8FoqPqfH0udMyMxCV9X2MClBXA&s",
     "category": "Smartphones",
-    "price": 749.99,
+    "price": 749,
     "description": "The Realme GT 3 is designed for gamers, featuring a high refresh rate display and powerful performance.",
     "Specification": [
         "6.74-inch AMOLED display",
@@ -513,7 +513,7 @@
   "product_title": "Asus ROG Phone 7",
   "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOnN6x0q9hyQjzGEjtll4i9IuzwlUlmLiCgA&s",
   "category": "Smartphones",
-  "price": 999.99,
+  "price": 999,
   "description": "The Asus ROG Phone 7 is built for gamers, featuring a high refresh rate display and advanced cooling technology.",
   "Specification": [
       "6.78-inch AMOLED display",

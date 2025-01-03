@@ -27,7 +27,7 @@ const Cart = () => {
     position: "center-center",
     icon: "success",
     title: "Payment Successfully",
-    text: `Thanks for purchasing . Total : ${total}`,
+    text: `Thanks for purchasing. Total : ${total}`,
     showConfirmButton: true,
   
   });
@@ -35,17 +35,19 @@ const Cart = () => {
 
  }
 
-    
-    
-    
-  
+   
+      const handleSort = () =>{
+        const sorted = [...cart].sort((a,b)=> b.price - a.price)
+        setcart(sorted)
+       }
+       
   return (
     <div className='px-32 py-16'>
       <div className='flex justify-between items-center pb-3'>
         <div className=''><h1 className='text-2xl font-bold'>Cart</h1></div>
         <div className='flex gap-5 justify-center items-center'>
             <p className='text-2xl font-bold'>Total Cost : {total} </p>
-            <button className=' border text-xl py-2 px-5 rounded-3xl font-semibold  border-[rgb(149,56,226)]  text-[rgb(149,56,226)] hover:text-white hover:bg-[rgb(149,56,226)]'>Short by price</button><button onClick={handlePurshes} className=' border text-xl py-2 px-5 rounded-3xl font-semibold  border-[rgb(149,56,226)] text-[rgb(149,56,226)]  hover:text-white hover:bg-[rgb(149,56,226)]'>Purchase</button>
+            <button onClick={handleSort} className=' border text-xl py-2 px-5 rounded-3xl font-semibold  border-[rgb(149,56,226)]  text-[rgb(149,56,226)] hover:text-white hover:bg-[rgb(149,56,226)]'>Short by price</button><button onClick={handlePurshes} className=' border text-xl py-2 px-5 rounded-3xl font-semibold  border-[rgb(149,56,226)] text-[rgb(149,56,226)]  hover:text-white hover:bg-[rgb(149,56,226)]'>Purchase</button>
 
         </div>
       </div>

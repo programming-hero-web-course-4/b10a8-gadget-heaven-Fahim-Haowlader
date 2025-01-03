@@ -7,7 +7,7 @@ const OfferPage = () => {
   return (
     <div>
          <Helmet>
-          <title>Gatget Heaven - Offres</title>
+          <title>Gadget Heaven - Offres</title>
         </Helmet>
         <div className='bg-[rgb(149,56,226)] flex flex-col justify-center items-center  '>
 

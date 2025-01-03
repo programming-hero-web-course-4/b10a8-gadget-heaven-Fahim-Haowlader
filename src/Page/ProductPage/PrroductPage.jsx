@@ -4,6 +4,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { useParams } from 'react-router-dom';
 import { useProductContext } from '../../context/AppContext';
 import { toast } from 'react-toastify';
+import Helmet  from 'react-helmet';
 
 
 const PrroductPage = () => {
@@ -15,7 +16,7 @@ const PrroductPage = () => {
         setcart([...cart,product])
         toast.success('Item added To Cart', {
             position: "top-center",
-            autoClose: 3000,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
             pauseOnHover: true,
@@ -31,7 +32,7 @@ const PrroductPage = () => {
                 if (cheek){
                     toast.info('Item Alrerady in The Wishlist', {
                         position: "top-center",
-                        autoClose: 3000,
+                        autoClose: 2000,
                         hideProgressBar: false,
                         closeOnClick: false,
                         pauseOnHover: true,
@@ -44,7 +45,7 @@ const PrroductPage = () => {
             setwishlist([...wishlist,product])
              toast.success('Item added To Wishlist', {
                 position: "top-center",
-                autoClose: 3000,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: false,
                 pauseOnHover: true,
@@ -59,6 +60,9 @@ const PrroductPage = () => {
    
   return (
     <div>
+            <Helmet>
+          <title>Gadget Heaven - Details</title>
+        </Helmet>
         <div>
             <div className='bg-[rgb(149,56,226)] text-white pt-9 pb-[280px] relative'>
                 <h1 className='text-4xl font-bold text-center pb-9 '>Product Page</h1>

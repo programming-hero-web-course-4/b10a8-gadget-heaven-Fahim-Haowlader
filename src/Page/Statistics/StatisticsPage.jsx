@@ -5,7 +5,7 @@ const StatisticsPage = () => {
   return (
     <div>
          <Helmet>
-          <title>Gatget Heaven - Statistics</title>
+          <title>Gadget Heaven - Statistics</title>
         </Helmet>
       <h1 className='text-7xl font-bold text-center  pb-40 pt-10 '> No Data Avaiable</h1>
     </div>

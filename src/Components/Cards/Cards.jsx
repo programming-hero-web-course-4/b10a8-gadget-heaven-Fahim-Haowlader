@@ -9,7 +9,6 @@ const Cards = () => {
     fetch('product.json')
     .then(res => res.json())
     .then(data =>{
-      console.log(data)
       setproduct(data)
       setshowingProduct(data)
       
@@ -32,22 +31,12 @@ const Cards = () => {
   setshowingProduct(product)
  }
     const handleCategoryClick = (category) =>{
-      console.log("click,",category)
        const newProduct =  product.filter((item) => item.category === category)
-       console.log(newProduct)
        setshowingProduct(newProduct)
       
     }
   return (
     <div className='flex '>
-      
-      {/* {
-        product.forEach(element => {
-          if (!category.includes(element?.category)){
-            setcategory([...category,element?.category])
-          }
-        }
-        )} */}
       <div className='w-[220px] h-[780px] py-4 flex flex-col mx-7  bg-white rounded-2xl pl-3 '>
       <button onClick={handleAllClick} className='w-48 text-lg py-2  my-3  bg-[rgb(235,235,235)] hover:bg-[rgb(149,56,226)] rounded-[200px]'>All Products</button>
      {

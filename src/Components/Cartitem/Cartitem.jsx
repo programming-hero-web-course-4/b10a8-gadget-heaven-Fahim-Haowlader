@@ -12,7 +12,7 @@ const Cartitem = ({item}) => {
     setcart(newcart);
      toast.warn('Remove From The Cart', {
                 position: "top-right",
-                autoClose: 3000,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: false,
                 pauseOnHover: true,
