@@ -7,7 +7,7 @@ const StatisticsPage = () => {
          <Helmet>
           <title>Gadget Heaven - Statistics</title>
         </Helmet>
-      <h1 className='text-7xl font-bold text-center  pb-40 pt-10 '> No Data Avaiable</h1>
+      <h1 className='text-7xl font-bold text-center  pb-96 pt-20 text-[rgb(149,56,226)] '> No Data Avaiable</h1>
     </div>
   )
 }

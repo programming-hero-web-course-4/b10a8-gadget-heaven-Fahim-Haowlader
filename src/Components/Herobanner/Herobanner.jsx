@@ -16,7 +16,7 @@ const Herobanner = () => {
 
         <div className='bg-[rgba(253,249,253,0.47)] rounded-2xl p-6 border border-white absolute top-[420px] left-[290px] '>
             <div>
-                <img src="../../src/assets/banner.jpg" alt="thois is a pic" className='w-[800px] h-[420px] object-cover rounded-2xl'  />
+                <img src="https://drscdn.500px.org/photo/1106639647/q%3D50_w%3D1000_of%3D1/v2?sig=f7b7cf4d34bfa3761c8fd25f777cf1ce8ae297ab4a1ea0605223b2d288831636" alt="thois is a pic" className='w-[800px] h-[420px] object-cover rounded-2xl'  />
             </div>
 
         </div>
