@@ -3,6 +3,8 @@ import { FiShoppingCart } from "react-icons/fi";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { useParams } from 'react-router-dom';
 import { useProductContext } from '../../context/AppContext';
+import { toast } from 'react-toastify';
+
 
 const PrroductPage = () => {
     const {id} = useParams();
@@ -11,18 +13,46 @@ const PrroductPage = () => {
    const handleAddToCart =(product)=>{
 
         setcart([...cart,product])
-        console.log(product)
-        console.log(cart)
+        toast.success('Item added To Cart', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+
       } 
 
       const handleWishlist = (product) =>{
         const cheek = wishlist.find((item) => item.product_id === product.product_id)
                 if (cheek){
-            console.log('have it in wish list')
+                    toast.info('Item Alrerady in The Wishlist', {
+                        position: "top-center",
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: false,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "colored",
+                        });
         }
         else{
             setwishlist([...wishlist,product])
-            console.log("add")
+             toast.success('Item added To Wishlist', {
+                position: "top-center",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                });
+           
         }
       }
   

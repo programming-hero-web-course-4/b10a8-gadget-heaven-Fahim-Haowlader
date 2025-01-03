@@ -1,13 +1,17 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Helmet    from 'react-helmet'
 
 const OfferPage = () => {
     const navigate = useNavigate()
   return (
     <div>
+         <Helmet>
+          <title>Gatget Heaven - Offres</title>
+        </Helmet>
         <div className='bg-[rgb(149,56,226)] flex flex-col justify-center items-center  '>
 
-        <h1 className='text-5xl font-bold text-center text-white py-3'>Best Offers Of The Year </h1>
+        <h1 className='text-5xl font-bold text-center text-white py-3 pt-10'>Best Offers Of The Year </h1>
         <p className='py-3 pb-10 w-[1000px] text-normal text-white text-center'>Welcome to our exclusive offer page, where the best deals await you! Don’t miss out on the opportunity to snag incredible discounts and special promotions that will make your shopping experience unforgettable . </p>
         </div>
      <div className='flex m-5 rounded-3xl my-10'>

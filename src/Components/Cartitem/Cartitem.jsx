@@ -1,6 +1,8 @@
 import React from 'react'
 import { TiDeleteOutline } from "react-icons/ti";
 import { useProductContext } from '../../context/AppContext';
+import { toast } from 'react-toastify';
+
 
 
 const Cartitem = ({item}) => {
@@ -8,6 +10,16 @@ const Cartitem = ({item}) => {
   const handleDelet = (id) =>{
     const newcart = cart.filter((item) => item.product_id !== id);
     setcart(newcart);
+     toast.warn('Remove From The Cart', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                });
   }
   return (
     <div>

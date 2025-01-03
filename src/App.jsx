@@ -5,6 +5,7 @@ import PrroductPage from './Page/ProductPage/PrroductPage'
 import { createBrowserRouter, createRoutesFromElements,Navigate,Route, RouterProvider } from 'react-router-dom'
 import RootLayout from './Layout/RootLayout'
 import OfferPage from './Page/OfferPage/OfferPage'
+import StatisticsPage from './Page/Statistics/StatisticsPage'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="home" element={<Homepage/>} />
       <Route path="dashboard" element={<Dashboard/>} />
       <Route path="offers" element={<OfferPage/>} />
+      <Route path="statistics" element={<StatisticsPage/>} />
       </Route>
     )
   )

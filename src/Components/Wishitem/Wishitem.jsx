@@ -1,12 +1,23 @@
 import React from 'react'
 import { TiDeleteOutline } from "react-icons/ti";
 import { useProductContext } from '../../context/AppContext';
+import { toast } from 'react-toastify';
 
 const Wishitem = ({item}) => {
     const {wishlist,setwishlist} = useProductContext()
     const handleDelet = (id) =>{
         const newcart = wishlist.filter((item) => item.product_id !== id);
         setwishlist(newcart);
+         toast.warn('Remove From The Wishlist', {
+                        position: "top-right",
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: false,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "colored",
+                        });
       }
    return (
       <div>

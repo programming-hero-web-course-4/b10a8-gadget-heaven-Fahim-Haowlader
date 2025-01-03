@@ -1,13 +1,16 @@
 import React from 'react'
 import { useState } from 'react'
-
 import Cart from '../../Components/Cart/Cart'
 import Wishlist from '../../Components/Wishlist/Wishlist'
+import  Helmet  from 'react-helmet'
 
 const Dashboard = () => {
   const [showCart, setshowCart] = useState(true)
   return (
     <div>
+       <Helmet>
+          <title>Gatget Heaven - DashBoard</title>
+        </Helmet>
         <div className='bg-[rgb(149,56,226)] text-white'>
         <h1 className='text-center py-6 text-4xl font-bold'>Dashboard</h1>
         <p className='text-center p-1'>Explore the latest gadgets that will take your experience to the next level. From smart devices to
